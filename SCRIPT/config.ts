@@ -2,7 +2,7 @@ import {
     popularTokens_ARBITRUM,popularTokens_BSC,popularTokens_MUMBAI,popularTokens_POLYGON,popularTokens_RINKEBY
   } from "./popularTokens";
 
-let network = "mumbai";
+let network = "matic";
 let GET_GLOBAL_VARIABLES = ""
 
 const GLOBAL_VARIABLES_RINKEBY: any = {
@@ -45,8 +45,10 @@ const GLOBAL_VARIABLES_ARBITRUM: any = {
 const GLOBAL_VARIABLES_POLYGON: any = {
   NETWORK: "matic",
   EXCHANGE: "sushiswap",
+  // JSON_RPC:
+  //   "https://polygon-mainnet.infura.io/v3/e821ea96b5f24f01b1566e31f6879d80",
   JSON_RPC:
-    "https://polygon-mainnet.infura.io/v3/e821ea96b5f24f01b1566e31f6879d80",
+    "https://polygon-mainnet.infura.io/v3/060691df70bc4bb5bf9ca36322fe8705",
   SUBGRAPH_URL:
     "https://api.thegraph.com/subgraphs/name/sushiswap/matic-exchange",
   ROUTER_ADDRESS: "0x1b02da8cb0d097eb8d57a175b88c7d8b47997506",

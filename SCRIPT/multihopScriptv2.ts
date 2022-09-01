@@ -639,13 +639,32 @@ async function sampleTestFunction() {
   //   true
   // );
 
+  // let xyz = await returnOptimalTradeUsingSubraph(
+  //   // CODE-------NOT WORKING
+  //   "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174", // SAND
+  //   "0xcb1e72786a6eb3b44c2a2429e317c8a2462cfeb1", // DAI
+  //   "1",
+  //   true
+  // );
   let xyz = await returnOptimalTradeUsingSubraph(
     // CODE-------NOT WORKING
-    "0xe03489d4e90b22c59c5e23d45dfd59fc0db8a025", // SAND
-    "0xcb1e72786a6eb3b44c2a2429e317c8a2462cfeb1", // DAI
-    "1",
+    "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270".toLowerCase().toString(), // WMATIC
+    "0xBbba073C31bF03b8ACf7c28EF0738DeCF3695683".toLowerCase().toString(), // SAND
+    "0.0000001",
     true
   );
+  // let xyz = await returnOptimalTradeUsingSubraph(
+  //   // CODE-------NOT WORKING
+  //   "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270".toLowerCase().toString(), // WMATIC
+  //   "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063".toLowerCase().toString(), // DAI
+  //   "1",
+  //   true
+  // );
+
+  // MATIC -> DAI  : swapExactETHforTokens
+  // WMATIC -> DAI : swapExatcTokenForToken
+
+  // ["0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270","0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619","0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"]
   // let xyz = await returnOptimalTradeUsingSubraph(
   //   // CODE-------NOT WORKING
   //   "0xe03489d4e90b22c59c5e23d45dfd59fc0db8a025", // SAND
