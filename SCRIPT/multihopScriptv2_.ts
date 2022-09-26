@@ -650,7 +650,7 @@ async function sampleTestFunction() {
     // CODE-------NOT WORKING
     "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270".toLowerCase().toString(), // WMATIC
     "0xBbba073C31bF03b8ACf7c28EF0738DeCF3695683".toLowerCase().toString(), // SAND
-    "0.00001",
+    "0.000001",
     true
   );
   // let xyz = await returnOptimalTradeUsingSubraph(
